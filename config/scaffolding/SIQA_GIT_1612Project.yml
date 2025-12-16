@@ -16,10 +16,6 @@ services:
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
-- serviceName: project.siqa_git_1612.integrations:SIQAAdapterFlow
-  packages:
-  - name: SIQA_GIT_1612Project
-    version: "1.0"
 - serviceName: project.siqa_git_1612.integrations:Sum
   packages:
   - name: SIQA_GIT_1612Project
