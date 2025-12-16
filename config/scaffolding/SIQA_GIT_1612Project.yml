@@ -11,53 +11,98 @@ packages:
   version: 10.7.0.0.198
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
 - serviceName: project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.198
+- serviceName: project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_3
+  packages:
+  - name: SIQA_GIT_1612Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBNewInsert1
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.WmSalesforceRESTProvider.com_softwareag_cloudstreams_salesforce_rest_v60.connections:RestConnAlias
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.integrations:Call_refData
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.referencedata:refData
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.integrations:Copy_Sum
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: pub.math:addInts
@@ -72,12 +117,20 @@ services:
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.integrations:Test_Date
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: pub.date:currentNanoTime
@@ -88,18 +141,30 @@ services:
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.WmSalesforceRESTProvider.com_softwareag_cloudstreams_salesforce_rest_v60.operations.actions:TestRest
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: project.siqa_git_1612.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.198
 - serviceName: pub.string:stringToBytes
@@ -119,6 +184,10 @@ services:
   - name: WmPublic
     version: 11.1.0.0.2105
 configurationVariables:
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
+  : "1433"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.expireTimeout
   : "1000"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
@@ -143,7 +212,11 @@ configurationVariables:
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.oauth_v20.authorizationHeaderPrefix
   : Bearer
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.maximumPoolSize
+  : "10"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.minimumPoolSize
   : "1"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
   : "10"
@@ -151,6 +224,8 @@ configurationVariables:
   : Progress® DataDirect®
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.keepAliveInterval
   : "300000"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.expireTimeout
+  : "1000"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.readTimeout
   : "30000"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.trustStore
@@ -165,11 +240,17 @@ configurationVariables:
   : ""
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.connectTimeout
   : "30000"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.trustStore
+  : ""
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
   : 9.60.195.99
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.validateAfterInactivity
   : "1000"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.otherProperties
+  : loginTimeout=60;driverType=thin;
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.blockingTimeout
   : "1000"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.oauth_v20.accessTokenRefreshURLRequest
   : URL Query String
@@ -181,6 +262,8 @@ configurationVariables:
   : "1000"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionEnabled
   : "false"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.serverName
+  : 9.60.195.99
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.oauth.accessToken
   : "{AES}2jLybUnV6FemugOpebt+dtLzsInUMU8QCwCoPx8JsV+4wYi60/u8xOkoHV/3lVAz/NSDiQdZ39Wg26nbpv3u9JJXakIyi8aVdUpfq385vaytE7sRplJ2I+kA3EaZWOsO2B3TPSxFLjNm2yQBIUvMaGmK1wuN3U1rA1B0VhuZoUw="
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.enableSNI
@@ -191,6 +274,10 @@ configurationVariables:
   : "true"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.idleTimeout
   : "-1"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.password
+  : "{AES}X4QCAWgjWkTdMQvFA5XaqGmK1wuN3U1rA1B0VhuZoUw="
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
   : sa
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.keyStore
@@ -209,48 +296,68 @@ configurationVariables:
   : "1"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.timeoutType
   : auto
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupBackoffSecs
+  : "10"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.hostnameVerifier
   : org.apache.http.conn.ssl.DefaultHostnameVerifier
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
   : "false"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupRetryCount
+  : "0"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
   : "{AES}X4QCAWgjWkTdMQvFA5XaqGmK1wuN3U1rA1B0VhuZoUw="
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
   : "1"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.oauth_v20.authenticationServerUrl
   : https://login.salesforce.com/services/oauth2/token
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.databaseName
+  : SIQACloud
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.keyStore
+  : ""
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.oauth_v20.authorizationServerUrl
   : https://login.salesforce.com/services/oauth2/authorize
-  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
-  : tcp
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupBackoffSecs
   : "10"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
+  : tcp
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.maximumPoolSize
   : "10"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cx.grant_type
   : refresh_token
-  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
-  : "1"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.trustStore
   : ""
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
+  : "1"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
   : "10"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
   : SIQACloud
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.user
+  : sa
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
   : "false"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.reuseAddr
   : "false"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.driverType
+  : Progress® DataDirect®
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
   : "0"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
   : "1433"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
   : SIQACloud
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionEnabled
+  : "false"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.poolIncrementSize
   : "1"
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.networkProtocol
+  : tcp
   ? iscloudstreamsconnectorservice.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..operations..actions:TestRest.virtualServiceName
   : WmCloudStreams.RestVS
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.dbType
+  : MSSQL
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.user
   : sa
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.transactionType
@@ -279,10 +386,14 @@ configurationVariables:
   : "10"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.oauth.consumerId
   : 3MVG9wt4IL4O5wvIADNKl03CbBmCQKcAkAbkFDcpaTXkyVfv7X1O4s2cklJGvkgxFTHWN6GBLsMx_IKubmOL5
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolable
+  : "false"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.cn.socketStaleCheck
   : "true"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
   : loginTimeout=60;driverType=thin;
+  ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolIncrementSize
+  : "1"
   ? cloudstreamsconnection.project..siqa_git_1612..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:RestConnAlias.minimumPoolSize
   : "1"
   ? artConnection.SIQA_GIT_1612Project.project.siqa_git_1612.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
