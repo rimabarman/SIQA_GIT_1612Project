@@ -20,3 +20,35 @@ services:
   packages:
   - name: SIQA_GIT_1612Project
     version: "1.0"
+- serviceName: project.siqa_git_1612.integrations:Sum
+  packages:
+  - name: SIQA_GIT_1612Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: project.siqa_git_1612.integrations:deepclonetest
+  packages:
+  - name: SIQA_GIT_1612Project
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
